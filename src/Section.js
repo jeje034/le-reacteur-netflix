@@ -6,7 +6,7 @@ const Section = (props) => {
                 {props.section.images.map((image, indice) => {
                     return (
                         <div key={indice} className="div-before-image">
-                            <img src={image} />
+                            <img src={image} alt="Image of a video" />
                         </div>
                     );
                 })}
